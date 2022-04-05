@@ -1,0 +1,106 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+@media only screen and (max-width: 767px) {
+  html, body {
+    height: 100%;
+  }
+  html .container, body .container {
+    height: 100%;
+    background-color: #202632;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  html .container .card, body .container .card {
+    background-color: #313a49;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  html .container .card .title, body .container .card .title {
+    color: #4ddd98;
+    min-block-size: 3rem;
+    border: solid red 2px;
+  }
+  html .container .card .advice, body .container .card .advice {
+    color: #c0d4db;
+    padding: 0 3rem;
+    border: solid red 2px;
+  }
+  html .container .card .line, body .container .card .line {
+    color: #cee2e9;
+    border: solid red 2px;
+  }
+  html .container .card .btn, body .container .card .btn {
+    color: #53ffab;
+    border: solid red 2px;
+  }
+  html .container .card .btn .green-circle, body .container .card .btn .green-circle {
+    background-color: #53ffa9;
+  }
+}
+@media only screen and (min-width: 768px) {
+  html, body {
+    height: 100%;
+  }
+  html .container, body .container {
+    height: 100%;
+    background-color: #202632;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  html .container .card, body .container .card {
+    width: 37.87%;
+    height: 40.53%;
+    background-color: #313a49;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  html .container .card .title, body .container .card .title {
+    color: #4ddd98;
+    min-block-size: 3rem;
+    border: solid red 2px;
+  }
+  html .container .card .advice, body .container .card .advice {
+    color: #c0d4db;
+    padding: 0 3rem;
+    border: solid red 2px;
+  }
+  html .container .card .line, body .container .card .line {
+    color: #cee2e9;
+    border: solid red 2px;
+  }
+  html .container .card .btn, body .container .card .btn {
+    color: #53ffab;
+    border: solid red 2px;
+  }
+  html .container .card .btn .green-circle, body .container .card .btn .green-circle {
+    background-color: #53ffa9;
+  }
+}
+
+/*# sourceMappingURL=adviceGen.css.map */
