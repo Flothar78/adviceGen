@@ -26,16 +26,17 @@ time, mark, audio, video {
   html .container, body .container {
     height: 100%;
     background-color: #202632;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 8rem 1rem 15rem 1rem;
   }
   html .container .card, body .container .card {
+    width: 90%;
+    height: 81%;
     background-color: #313a49;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin: 2rem 2rem 5rem 2rem;
   }
   html .container .card .title, body .container .card .title {
     color: #4ddd98;
@@ -51,12 +52,12 @@ time, mark, audio, video {
     color: #cee2e9;
     border: solid red 2px;
   }
-  html .container .card .btn, body .container .card .btn {
-    color: #53ffab;
-    border: solid red 2px;
-  }
-  html .container .card .btn .green-circle, body .container .card .btn .green-circle {
+  html .container .card .green-circle, body .container .card .green-circle {
     background-color: #53ffa9;
+    width: 20%;
+    padding-top: 15%;
+    height: auto;
+    border-radius: 50%;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -77,7 +78,7 @@ time, mark, audio, video {
     background-color: #313a49;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
   }
   html .container .card .title, body .container .card .title {
@@ -94,12 +95,12 @@ time, mark, audio, video {
     color: #cee2e9;
     border: solid red 2px;
   }
-  html .container .card .btn, body .container .card .btn {
-    color: #53ffab;
-    border: solid red 2px;
-  }
-  html .container .card .btn .green-circle, body .container .card .btn .green-circle {
+  html .container .card .green-circle, body .container .card .green-circle {
     background-color: #53ffa9;
+    width: 20%;
+    padding-top: 15%;
+    height: auto;
+    border-radius: 50%;
   }
 }
 

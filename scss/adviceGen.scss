@@ -21,30 +21,25 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-
-
-
-
 /// Breakpoint: s'appliquera aux écrans de moins de 768px ///
 @media only screen and(max-width: 767px ) {
 
 // CSS Proprement dit //
-    html, body {
+html, body {
         height: 100%;
         .container {
             height: 100%;
             background-color: #202632;
-            display: flex;
-            
-            justify-content: center;
-            align-items: center;
+            padding: 8rem 1rem 15rem 1rem;
             .card {
-                
+                width: 90%;
+                height: 81%;
                 background-color:  #313a49;
                 display: flex;
                 flex-direction: column;
-                justify-content: space-around;
+                justify-content: space-between;
                 align-items: center;
+                margin: 2rem 2rem 5rem 2rem;
                 .title {
                     color: #4ddd98;
                     min-block-size: 3rem;
@@ -54,24 +49,21 @@ time, mark, audio, video {
                     color: #c0d4db;
                     padding: 0 3rem;
                     border: solid red 2px;
-                    
                 }
                 .line {
                     color: #cee2e9;
                     border: solid red 2px;
                 }
-                .btn {
-                    color: #53ffab;
-                    border: solid red 2px;
-                    .green-circle {
-                        background-color: #53ffa9;
-                        
-                    }
+                .green-circle {
+                    background-color: #53ffa9;
+                    width: 20%;
+                    padding-top: 15%;                        
+                    height: auto;
+                    border-radius: 50%;                  
                 }
             }
         }
     }
-
 }
 /// Breakpoint: s'appliquera aux écrans de 768px et plus ///
 @media only screen and(min-width: 768px ) {
@@ -92,7 +84,7 @@ time, mark, audio, video {
                     background-color:  #313a49;
                     display: flex;
                     flex-direction: column;
-                    justify-content: space-around;
+                    justify-content: space-between;
                     align-items: center;
                     .title {
                         color: #4ddd98;
@@ -108,13 +100,12 @@ time, mark, audio, video {
                         color: #cee2e9;
                         border: solid red 2px;
                     }
-                    .btn {
-                        color: #53ffab;
-                        border: solid red 2px;
-                        .green-circle {
-                            background-color: #53ffa9;
-                            
-                        }
+                    .green-circle {
+                    background-color: #53ffa9;
+                    width: 20%;
+                    padding-top: 15%;                        
+                    height: auto;
+                    border-radius: 50%;
                     }
                 }
             }
