@@ -63,7 +63,10 @@ time, mark, audio, video {
   }
   html .container .card .green-circle .svgDice, body .container .card .green-circle .svgDice {
     position: absolute;
-    transform: translate(250%, -200%);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -112,7 +115,9 @@ time, mark, audio, video {
   }
   html .container .card .green-circle .svgDice, body .container .card .green-circle .svgDice {
     position: absolute;
-    transform: translate(250%, -200%);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 

@@ -64,7 +64,10 @@ html, body {
                         margin-bottom: -10%;
                         .svgDice {
                             position: absolute;
-                            transform: translate(250%, -200%)
+                            left: 50%;
+                            top: 50%;
+                            transform: translate(-50%, -50%);
+                            object-fit: contain;   
                         }                 
                 }
             }
@@ -116,8 +119,9 @@ html, body {
                         margin-bottom: -8%;
                         .svgDice {
                             position: absolute;
-                            transform: translate(250%, -200%);
-
+                            left: 50%;
+                            top: 50%;
+                            transform: translate(-50%, -50%);
                         }
                     }
                 }
