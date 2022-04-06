@@ -55,11 +55,17 @@ html, body {
                     border: solid red 2px;
                 }
                 .green-circle {
-                    background-color: #53ffa9;
-                    width: 20%;
-                    padding-top: 15%;                        
-                    height: auto;
-                    border-radius: 50%;                  
+                    position: relative;
+                        background-color: #53ffa9;
+                        width: 21%;
+                        padding-top: 21%;                    
+                        height: auto;
+                        border-radius: 50%;
+                        margin-bottom: -10%;
+                        .svgDice {
+                            position: absolute;
+                            transform: translate(250%, -200%)
+                        }                 
                 }
             }
         }
@@ -101,11 +107,18 @@ html, body {
                         border: solid red 2px;
                     }
                     .green-circle {
-                    background-color: #53ffa9;
-                    width: 20%;
-                    padding-top: 15%;                        
-                    height: auto;
-                    border-radius: 50%;
+                        position: relative;
+                        background-color: #53ffa9;
+                        width: 15.66%;
+                        padding-top: 15.66%;                    
+                        height: auto;
+                        border-radius: 50%;
+                        margin-bottom: -8%;
+                        .svgDice {
+                            position: absolute;
+                            transform: translate(250%, -200%);
+
+                        }
                     }
                 }
             }

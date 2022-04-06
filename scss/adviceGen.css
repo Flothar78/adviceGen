@@ -53,11 +53,17 @@ time, mark, audio, video {
     border: solid red 2px;
   }
   html .container .card .green-circle, body .container .card .green-circle {
+    position: relative;
     background-color: #53ffa9;
-    width: 20%;
-    padding-top: 15%;
+    width: 21%;
+    padding-top: 21%;
     height: auto;
     border-radius: 50%;
+    margin-bottom: -10%;
+  }
+  html .container .card .green-circle .svgDice, body .container .card .green-circle .svgDice {
+    position: absolute;
+    transform: translate(250%, -200%);
   }
 }
 @media only screen and (min-width: 768px) {
@@ -96,11 +102,17 @@ time, mark, audio, video {
     border: solid red 2px;
   }
   html .container .card .green-circle, body .container .card .green-circle {
+    position: relative;
     background-color: #53ffa9;
-    width: 20%;
-    padding-top: 15%;
+    width: 15.66%;
+    padding-top: 15.66%;
     height: auto;
     border-radius: 50%;
+    margin-bottom: -8%;
+  }
+  html .container .card .green-circle .svgDice, body .container .card .green-circle .svgDice {
+    position: absolute;
+    transform: translate(250%, -200%);
   }
 }
 
