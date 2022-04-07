@@ -43,7 +43,7 @@ time, mark, audio, video {
     min-block-size: 3rem;
     border: solid red 2px;
   }
-  html .container .card .advice, body .container .card .advice {
+  html .container .card #advice, body .container .card #advice {
     color: #c0d4db;
     padding: 0 3rem;
     border: solid red 2px;
@@ -95,7 +95,7 @@ time, mark, audio, video {
     min-block-size: 3rem;
     border: solid red 2px;
   }
-  html .container .card .advice, body .container .card .advice {
+  html .container .card #advice, body .container .card #advice {
     color: #c0d4db;
     padding: 0 3rem;
     border: solid red 2px;

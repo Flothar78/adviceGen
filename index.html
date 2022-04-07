@@ -9,6 +9,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="../scss/adviceGen.css">
 
+
   <title>Frontend Mentor | Advice generator app</title>
 </head>
 
@@ -18,13 +19,12 @@
       <div class="title">
         Conseil #
       </div>
-      <div class="advice">
-        Conseil s'affiche ici Conseil s'affiche ici Conseil s'affiche ici Conseil s'affiche ici Conseil s'affiche ici
+      <div id="advice">
       </div>
       <div class="line">
         Ligne et Signe Pause
       </div>
-      <div class="green-circle">
+      <div class="green-circle" onclick="newAdvice()">
         <svg class="svgDice" viewbox="-3 -4 30 30" xmlns="http://www.w3.org/2000/svg">
           <path
             d="M20 0H4a4.005 4.005 0 0 0-4 4v16a4.005 4.005 0 0 0 4 4h16a4.005 4.005 0 0 0 4-4V4a4.005 4.005 0 0 0-4-4ZM7.5 18a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm0-9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm4.5 4.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm4.5 4.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm0-9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Z"
@@ -33,6 +33,7 @@
       </div>
     </div>
   </div>
+  <script src="./adviceGen.js"></script>
 </body>
 
 </html>
