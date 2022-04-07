@@ -1,3 +1,4 @@
+// Fonction qui affiche un conseil au chargement de la page//
 async function homeAdvice() {
   let response = await fetch("https://api.adviceslip.com/advice");
   let advice = await response.json();
@@ -6,6 +7,7 @@ async function homeAdvice() {
 }
 homeAdvice();
 
+// Fonction qui affiche un conseil au clique du bouton green-circle//
 async function newAdvice() {
   let response = await fetch("https://api.adviceslip.com/advice");
   let advice = await response.json();
