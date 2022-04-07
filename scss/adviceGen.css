@@ -19,10 +19,6 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-@font-face {
-  font-family: Manrope;
-  src: url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
-}
 @media only screen and (max-width: 799px) {
   html, body {
     height: 100%;

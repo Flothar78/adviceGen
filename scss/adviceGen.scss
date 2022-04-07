@@ -21,10 +21,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-@font-face {
-    font-family: Manrope;
-    src: url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
-}
+
 
 /// Breakpoint: s'appliquera aux écrans de moins de 768px ///
 @media only screen and(max-width: 799px ) {
