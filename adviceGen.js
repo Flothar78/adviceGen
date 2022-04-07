@@ -4,6 +4,10 @@ async function homeAdvice() {
   let advice = await response.json();
   let showAdvice = document.getElementById("advice");
   showAdvice.textContent = '"' + advice.slip.advice + '"';
+
+  // Ajout, dans la balise title, du Id récupéré via le JSON  //
+  let showId = document.getElementById("title");
+  showId.textContent = "ADVICE # " + advice.slip.id;
 }
 homeAdvice();
 
@@ -13,4 +17,8 @@ async function newAdvice() {
   let advice = await response.json();
   let showAdvice = document.getElementById("advice");
   showAdvice.textContent = '"' + advice.slip.advice + '"';
+
+  // Ajout, dans la balise title, du Id récupéré via le JSON  //
+  let showId = document.getElementById("title");
+  showId.textContent = "ADVICE # " + advice.slip.id;
 }

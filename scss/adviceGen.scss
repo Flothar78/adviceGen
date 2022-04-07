@@ -21,8 +21,13 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+@font-face {
+    font-family: Manrope;
+    src: url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+}
+
 /// Breakpoint: s'appliquera aux écrans de moins de 768px ///
-@media only screen and(max-width: 767px ) {
+@media only screen and(max-width: 799px ) {
 
 // CSS Proprement dit //
 html, body {
@@ -34,25 +39,25 @@ html, body {
             .card {
                 width: 90%;
                 height: 81%;
+                border-radius: 3%;
                 background-color:  #313a49;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
                 align-items: center;
                 margin: 2rem 2rem 5rem 2rem;
-                .title {
+                #title {
                     color: #4ddd98;
                     min-block-size: 3rem;
-                    border: solid red 2px;
                 }
                 #advice {
                     color: #c0d4db;
                     padding: 0 3rem;
-                    border: solid red 2px;
+                    font-size: 28px;
+                    font-family: 'Manrope', sans-serif;
                 }
                 .line {
-                    color: #cee2e9;
-                    border: solid red 2px;
+                    color: #cee2e9;                    
                 }
                 .green-circle {
                     position: relative;
@@ -75,7 +80,7 @@ html, body {
     }
 }
 /// Breakpoint: s'appliquera aux écrans de 768px et plus ///
-@media only screen and(min-width: 768px ) {
+@media only screen and(min-width: 800px ) {
 
 // CSS Proprement dit //
         html, body {
@@ -90,24 +95,24 @@ html, body {
                 .card {
                     width: 37.87%;
                     height: 40.53%;
+                    border-radius: 3%;
                     background-color:  #313a49;
                     display: flex;
                     flex-direction: column;
                     justify-content: space-between;
                     align-items: center;
-                    .title {
+                    #title {
                         color: #4ddd98;
-                        min-block-size: 3rem;
-                        border: solid red 2px;
+                        min-block-size: 3rem;                        
                     }
                     #advice {
                         color: #c0d4db;
-                        padding: 0 3rem;
-                        border: solid red 2px;
+                        padding: 0 3rem;                        
+                        font-size: 28px;
+                        font-family: 'Manrope', sans-serif;
                     }
                     .line {
-                        color: #cee2e9;
-                        border: solid red 2px;
+                        color: #cee2e9;                        
                     }
                     .green-circle {
                         position: relative;

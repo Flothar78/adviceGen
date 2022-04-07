@@ -19,7 +19,11 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-@media only screen and (max-width: 767px) {
+@font-face {
+  font-family: Manrope;
+  src: url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+}
+@media only screen and (max-width: 799px) {
   html, body {
     height: 100%;
   }
@@ -31,6 +35,7 @@ time, mark, audio, video {
   html .container .card, body .container .card {
     width: 90%;
     height: 81%;
+    border-radius: 3%;
     background-color: #313a49;
     display: flex;
     flex-direction: column;
@@ -38,19 +43,18 @@ time, mark, audio, video {
     align-items: center;
     margin: 2rem 2rem 5rem 2rem;
   }
-  html .container .card .title, body .container .card .title {
+  html .container .card #title, body .container .card #title {
     color: #4ddd98;
     min-block-size: 3rem;
-    border: solid red 2px;
   }
   html .container .card #advice, body .container .card #advice {
     color: #c0d4db;
     padding: 0 3rem;
-    border: solid red 2px;
+    font-size: 28px;
+    font-family: "Manrope", sans-serif;
   }
   html .container .card .line, body .container .card .line {
     color: #cee2e9;
-    border: solid red 2px;
   }
   html .container .card .green-circle, body .container .card .green-circle {
     position: relative;
@@ -69,7 +73,7 @@ time, mark, audio, video {
     object-fit: contain;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 800px) {
   html, body {
     height: 100%;
   }
@@ -84,25 +88,25 @@ time, mark, audio, video {
   html .container .card, body .container .card {
     width: 37.87%;
     height: 40.53%;
+    border-radius: 3%;
     background-color: #313a49;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
   }
-  html .container .card .title, body .container .card .title {
+  html .container .card #title, body .container .card #title {
     color: #4ddd98;
     min-block-size: 3rem;
-    border: solid red 2px;
   }
   html .container .card #advice, body .container .card #advice {
     color: #c0d4db;
     padding: 0 3rem;
-    border: solid red 2px;
+    font-size: 28px;
+    font-family: "Manrope", sans-serif;
   }
   html .container .card .line, body .container .card .line {
     color: #cee2e9;
-    border: solid red 2px;
   }
   html .container .card .green-circle, body .container .card .green-circle {
     position: relative;
